@@ -1,0 +1,29 @@
+{
+    "name": "hiraeth/markdown",
+    "description": "Markdown abstraction for the Hiraeth Nano Framework",
+    "license": "MIT",
+    "authors": [
+        {
+            "name":  "Matthew J. Sahagian",
+            "email": "matthew.sahagian@gmail.com",
+            "role":  "Lead Architect / Developer"
+        }
+    ],
+    "require": {
+        "hiraeth/app": "^2.0",
+        "aptoma/twig-markdown": "^2.1",
+        "erusev/parsedown": "^1.7"
+    },
+    "autoload": {
+        "classmap": ["src/"]
+    },
+    "type": "opus-package",
+    "extra": {
+        "opus": {
+            "hiraeth/app": {
+                "config": "",
+                "pages": "resources/pages"
+            }
+        }
+    }
+}
