@@ -7,8 +7,7 @@
 	;
 
 	aliases = {
-		"Hiraeth\Markdown\ParserInterface": "Hiraeth\Markdown\ParsedownProxy",
-		"Aptoma\Twig\Extension\MarkdownEngineInterface": "Aptoma\Twig\Extension\MarkdownEngine\ParsedownEngine"
+		"Hiraeth\Markdown\ParserInterface": "Hiraeth\Markdown\ParsedownProxy"
 	}
 
 	;
@@ -32,20 +31,4 @@
 
 	providers = [
 
-	]
-
-;
-; A [twig] section can be added to any configuration file to add paths, filters, globals, or extensions.  Note,
-; however, that conflicts will not be automstically resolved, so if two separate [twig] configurations provide a
-; conflicting key, twig may complain.
-;
-
-[twig]
-
-	;
-	; Extensions - A list of extension classes
-	;
-
-	extensions = [
-		"Aptoma\Twig\Extension\MarkdownExtension"
 	]
