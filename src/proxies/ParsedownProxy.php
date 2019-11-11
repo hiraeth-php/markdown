@@ -2,6 +2,8 @@
 
 namespace Hiraeth\Markdown;
 
+use Parsedown;
+
 /**
  *
  */
