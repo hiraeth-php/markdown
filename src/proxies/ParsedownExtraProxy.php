@@ -2,7 +2,7 @@
 
 namespace Hiraeth\Markdown;
 
-use ParsedownExtra
+use ParsedownExtra;
 
 /**
  *
