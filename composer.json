@@ -11,7 +11,8 @@
     ],
     "require": {
         "hiraeth/app": "^2.0",
-        "erusev/parsedown": "^1.7"
+        "erusev/parsedown": "^1.7",
+        "erusev/parsedown-extra": "^0.1"
     },
     "autoload": {
         "classmap": ["src/"]
