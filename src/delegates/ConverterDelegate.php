@@ -35,15 +35,15 @@ class ConverterDelegate implements Hiraeth\Delegate
 	 */
 	public function __invoke(Hiraeth\Application $app): object
 	{
-		$environment = Environment::createCommonMarkEnvironment();
+		$environment = CommonMark\Environment::createCommonMarkEnvironment();
 
 		foreach ($app->getConfig('packages/markdown', 'markdown.extensions', []) as $extension) {
 			$environment->addExtension($app->get($extension));
 		}
 
-		return $app->share(new Converter(
-			new DocParser($environment),
-			new HtmlRenderer($environment)
+		return $app->share(new CommonMark\Converter(
+			new CommonMark\DocParser($environment),
+			new CommonMark\HtmlRenderer($environment)
 		));
 	}
 }
