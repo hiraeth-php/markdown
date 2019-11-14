@@ -11,10 +11,7 @@
         }
     ],
     "require": {
-        "hiraeth/app": "^2.0",
-        "league/commonmark": "^1.2",
-        "league/commonmark-extras": "^1.2",
-        "webuni/commonmark-attributes-extension": "^1.0"
+        "hiraeth/app": "^2.0"
     },
     "autoload": {
         "classmap": ["src/"]
@@ -23,7 +20,6 @@
     "extra": {
         "opus": {
             "hiraeth/app": {
-                "config": ""
             }
         }
     }

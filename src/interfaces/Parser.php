@@ -5,7 +5,7 @@ namespace Hiraeth\Markdown;
 /**
  *
  */
-interface ParserInterface
+interface Parser
 {
 	public function parse(string $markdown): string;
 }
